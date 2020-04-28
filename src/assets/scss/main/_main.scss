@@ -1,6 +1,6 @@
 main {
   .jumbotron {
-    height: 30rem;
+    height: 20rem;
     background: url(https://img-b.udemycdn.com/notices/home_banner/image/048e0cdc-3e71-47dc-ae30-e9ac7a3504b5.jpg) no-repeat center;
     background-size: cover;
     display: flex;
@@ -56,6 +56,7 @@ main {
 @media only screen and (min-width: 576px) {
   main {
     .jumbotron {
+      height: 30rem;
       .first-desc {
         font-size: 3rem;
         font-weight: bolder;
