@@ -1,0 +1,17 @@
+@import "../abstracts/alert";
+.header{
+  padding: 0;
+  margin: 0;
+  header{
+    height: 51px;
+    box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .header{
+    header{
+      height: 64px;
+    }
+  }
+}

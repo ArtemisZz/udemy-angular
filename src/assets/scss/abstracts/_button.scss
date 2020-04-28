@@ -1,0 +1,71 @@
+@import "../color/colors";
+@import "../function/function";
+
+.btn{
+  border: 0;
+  padding: 0 1rem;
+  width: 6.5rem;
+  height: 2.5rem;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.btn-none{
+  @extend .btn;
+  background: transparent;
+  cursor: pointer;
+  height: initial;
+  width: initial !important;
+}
+
+.btn-normal{
+  @extend .btn;
+  border: 1px solid #686f7a;
+  height: initial !important;
+  width: initial !important;
+  padding: 0.8rem 4rem 0.8rem 0.5rem;
+  color: #686f7a;
+  &:hover{
+    color: black;
+    border: 1px solid black;
+  }
+}
+
+.btn-primary{
+  @extend .btn;
+  background: getColor(primary);
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  width: initial !important;
+  &:hover{
+    background-color: darken(getColor(secondary), 20);
+  }
+}
+
+.btn-secondary{
+  @extend .btn;
+  background: getColor(secondary);
+  color: getColor(primary);
+  font-size: 14px;
+  font-weight: 600;
+  width: initial !important;
+  padding: 0 0.5rem;
+  &:hover{
+    background-color: darken(getColor(secondary), 20);
+  }
+}
+
+.btn-stretch{
+  @extend .btn;
+  //width: 100% !important;
+  height: 3.5rem;
+  background: transparent;
+  box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+  border-radius: 2px !important;
+  margin: 0.4rem auto;
+}
+
+@media only screen and (min-width: 768px) {
+
+}

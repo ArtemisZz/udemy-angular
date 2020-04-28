@@ -1,0 +1,82 @@
+main {
+  .jumbotron {
+    height: 30rem;
+    background: url(https://img-b.udemycdn.com/notices/home_banner/image/048e0cdc-3e71-47dc-ae30-e9ac7a3504b5.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    * {
+      color: white;
+    }
+  }
+
+  .get-started {
+    background-color: #29303b;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    * {
+      color: white;
+    }
+
+    .cover {
+      position: absolute;
+      background: rgb(245, 0, 255);
+      background: linear-gradient(90deg, rgba(245, 0, 255, 1) 0%, rgba(74, 0, 37, 1) 20%, rgba(255, 0, 0, 1) 100%);
+      top: 0;
+      margin: auto;
+      width: 100%;
+      height: 0.4rem;
+    }
+
+    .primary-text {
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+    .secondary-text {
+      font-size: 14px;
+    }
+  }
+
+  .top-category {
+
+  }
+
+  .student-review {
+    height: 20rem;
+  }
+}
+
+
+@media only screen and (min-width: 576px) {
+  main {
+    .jumbotron {
+      .first-desc {
+        font-size: 3rem;
+        font-weight: bolder;
+        width: 24rem;
+      }
+
+      .second-desc {
+        font-size: 1.3rem;
+        width: 24rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  main {
+    #advert{
+      height: 4rem;
+      *{
+        color: white;
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+<div class="show grid-area grid-column-2-md grid-column-3-lg grid-column-4-xl">
+  <div *ngFor="let category of categories" class="mb-1">
+    <a routerLink="#" target="_blank" *ngIf="category.id <= 8"><div class="btn btn-none btn-stretch flex-area align-items-center">{{ category.name }}</div></a>
+  </div>
+</div>

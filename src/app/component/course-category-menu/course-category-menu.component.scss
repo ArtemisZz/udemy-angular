@@ -1,0 +1,15 @@
+.navbar-category{
+  border-bottom: 1px solid #dedfe0;
+  width: 100%;
+  .navbar-category-main{
+    display: flex;
+    width: 90%;
+    height: 4rem;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    *{
+      font-size: 12px;
+    }
+  }
+}

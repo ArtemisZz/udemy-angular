@@ -1,0 +1,14 @@
+.alert{
+  position: relative;
+  button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: 0;
+    *{
+      font-size: large;
+      text-decoration: none;
+    }
+  }
+}

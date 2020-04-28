@@ -1,0 +1,10 @@
+<div class="navbar-category">
+  <div class="navbar-category-main">
+    <div *ngFor="let category of categories">
+      <div *ngIf="category.id<=7">
+        <button class="btn btn-none">{{ category.name }}</button>
+      </div>
+    </div>
+  </div>
+</div>
+

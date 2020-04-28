@@ -1,0 +1,142 @@
+<!-- Header -->
+<div class="header">
+  <header id="header">
+    <!-- Navbar -->
+    <app-navbar></app-navbar>
+    <!-- Navbar -->
+  </header>
+</div>
+<!-- Header -->
+<div class="main">
+  <main role="main">
+    <section class="position-relative">
+      <div class="jumbotron">
+        <div class="description pl-1 pb-1">
+          <div class="first-desc">
+            Learn on your schedule
+          </div>
+          <div class="second-desc">
+            Study any topic, anytime. Choose from thousands of expert-led courses now.
+          </div>
+          <app-main-search></app-main-search>
+        </div>
+      </div>
+    </section>
+    <section class="w-100" id="advert">
+      <div class="close-sm show-md w-100 bg-linear-gradient  advert">
+        <div class="flex-area h-100 align-items-center pl-1 justify-content-space-evenly">
+          <div class="flex-area flex-column justify-content-center mr-2 h-100">
+            <div>
+              <div class="font-bold">100,000 online courses</div>
+              <div class="text-sm">Explore a variete of fresh topics</div>
+            </div>
+          </div>
+          <div class="flex-area flex-column justify-content-center mr-2 h-100">
+            <div>
+              <div class="font-bold">Expert instruction</div>
+              <div class="text-sm">Find the right instructor for you</div>
+            </div>
+          </div>
+          <div class="flex-area flex-column justify-content-center mr-2 h-100">
+            <div>
+              <div class="font-bold">Lifetime access</div>
+              <div class="text-sm">Learn on your schedule</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="course-list">
+        <app-course-category-menu></app-course-category-menu>
+      </div>
+    </section>
+    <section class="get-started">
+      <div class="cover"></div>
+      <div class="center-div inner-div">
+        <div class="text-center flex-area flex-column">
+          <div class="primary-text">Get personalized recommendations</div>
+          <div class="secondary-text">Answer a few questions for your top picks</div>
+          <div>
+            <button type="button" class="btn btn-secondary">Get started</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="top-category">
+      <div class="container">
+        <h2>Top categories</h2>
+        <div class="top-category-main">
+          <app-top-category></app-top-category>
+        </div>
+      </div>
+    </section>
+    <section class="bg-light-gray mt-1 pb-1">
+      <div class="container">
+        <article class="student-review pt-1">
+          <h2>What our students have to say</h2>
+          <app-student-review></app-student-review>
+        </article>
+      </div>
+      <article class="companies ">
+        <div class="text-center text-sm">
+          <p>Trusted by companies of all sizes</p>
+        </div>
+        <div>
+
+        </div>
+      </article>
+      <article class="">
+        <div class="flex-area mx-1 justify-content-space-between">
+          <div class="flex-link flex-area flex-column justify-content-center">
+            <div class="font-bold">Become an instructor</div>
+            <div class="text-md">Top instructors from around the world teach millions of students on Udemy. We provide the tools and
+              skills to teach what you love.
+            </div>
+            <div>
+              <button class="btn btn-secondary">Start teaching today</button>
+            </div>
+          </div>
+          <div class="flex-link flex-area flex-column justify-content-center">
+            <div class="font-bold">Udemy for Business</div>
+            <div class="text-md">Get unlimited access to 4,000+ of Udemy’s top courses for your team.</div>
+            <div>
+              <button class="btn-secondary">Get udemy for Business</button>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+</div>
+<div class="footer">
+  <footer>
+    <div>
+      <div class="mx-1">
+        <button class="cursor-pointer btn btn-normal bg-transparent flex-area align-items-center position-relative"><span class="mr-1"><img class="img-small" src="../assets/images/global.svg"></span>English<div><img src="https://img.icons8.com/material-rounded/10/000000/chevron-up.png" class="position-absolute"/></div>
+        </button>
+        <ul class="close">
+
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div class="footer_links-main">
+        <div class="logo-container">
+          <img src="https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg" class="logo">
+        </div>
+        <span class="copyright">Copyright 	&copy; Udemy, Inc.</span>
+      </div>
+      <div class="footer_links-bottom">
+        <ul class="list-inline">
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy Policy and Cookie Policy</a></li>
+          <li><a href="#">Sitemap</a></li>
+          <li><a href="#">Featured courses</a></li>
+          <li><a href="#">Get the app</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <hr/>
+</div>

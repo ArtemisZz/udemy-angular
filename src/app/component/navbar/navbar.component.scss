@@ -1,0 +1,134 @@
+@import "../../../assets/scss/color/colors";
+@import "../../../assets/scss/function/function";
+.navbar {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+  position: relative;
+
+  .navbar-brand {
+    width: 115px;
+    height: auto;
+  }
+
+  .logo-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .navbar-left {
+    flex: initial;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+
+    #menu-toggle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 51px;
+    }
+
+    #search {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 51px;
+    }
+  }
+
+  .navbar-right {
+    z-index: 10;
+    width: 51px;
+    .cart-icon{
+      width: 45px;
+      height: 45px;
+      &:hover {
+        background: silver;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .navbar{
+    .logo-container{
+      position: relative;
+      justify-content: start;
+      padding: 0 1rem;
+    }
+    .navbar-left{
+      flex: 1;
+      min-width: 21rem;
+      #category{
+        display: flex !important;
+        align-items: center;
+        width: 4rem;
+        padding: 0 1rem;
+        span{
+          font-size: 12px;
+          padding-left: 4px;
+        }
+        &:hover{
+          background: rgba(20,23,28,.05);
+          border-color: rgba(20,23,28,.05);
+        }
+      }
+
+      #search{
+        width: 100%;
+        max-width: 32rem;
+        position: relative;
+        #search-icon{
+          position: absolute;
+          right: 0;
+          margin: auto;
+        }
+      }
+    }
+
+    .navbar-right{
+      //flex: 1;
+      //width: 100%;
+      width: initial;
+      .login-btn{
+        margin-right: 4px;
+        margin-left: 16px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  #business, #teach{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    padding: 0 1rem;
+    span{
+      font-size: 12px;
+      padding-left: 4px;
+      text-align: center;
+    }
+
+    &:hover{
+      background: rgba(20,23,28,.05);
+      border-color: rgba(20,23,28,.05);
+    }
+  }
+
+  .navbar{
+    padding: 0 2rem;
+  }
+}

@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+@import "src/assets/scss/header/header";
+@import "assets/scss/abstracts/svg";
+@import "assets/scss/abstracts/container";
+@import "assets/scss/abstracts/button";
+@import "assets/scss/main/main";
+@import "assets/scss/footer/footer";
+@import "assets/scss/abstracts/abstract";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+html, body{
+  width: 100%;
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+ul{
+  li{
+    list-style: none;
+  }
+}
+
+a{
+  text-decoration: none;
+  color: #14171c;
+}
+
+h1{
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 1;
+  margin-bottom: 15px;
+}
