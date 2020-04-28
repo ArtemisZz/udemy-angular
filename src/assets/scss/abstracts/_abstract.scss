@@ -7,6 +7,14 @@
   display: none;
 }
 
+.close{
+  display: none !important;
+}
+
+
+.show{
+  display: block;
+}
 
 /* Display */
 
@@ -238,15 +246,7 @@
     display: none !important;
   }
 
-  .close{
-    display: none !important;
-  }
-
   .show-sm{
-    display: block;
-  }
-
-  .show{
     display: block;
   }
   /* Display */
