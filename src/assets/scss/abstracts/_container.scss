@@ -1,11 +1,25 @@
 .container{
-  width: 90%;
-  max-width: 1800px;
   margin: auto;
+  padding: 0 10px;
 }
 
 .container-fluid{
   width: 100%;
   margin: auto;
   padding: 0 10px;
+}
+
+@media screen and (min-width: 576px) {
+  .container{
+    width: 90%;
+    max-width: 1800px;
+    margin: auto;
+  }
+
+
+  .container-fluid{
+    width: 100%;
+    margin: auto;
+    padding: 0 10px;
+  }
 }
