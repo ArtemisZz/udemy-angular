@@ -1,19 +1,14 @@
 /* Display */
-.close-sm{
-  display: none !important;
-}
-
-.close{
-  display: none !important;
-}
-
-.show-sm{
+.show-xs{
   display: block;
 }
 
-.show{
-  display: block;
+.close-xs{
+  display: none;
 }
+
+
+/* Display */
 
 
 .inner-div{
@@ -235,6 +230,27 @@
 
 .h-100{
   height: 100%;
+}
+
+@media only screen and (min-width: 576px) {
+  /* Display */
+  .close-sm{
+    display: none !important;
+  }
+
+  .close{
+    display: none !important;
+  }
+
+  .show-sm{
+    display: block;
+  }
+
+  .show{
+    display: block;
+  }
+  /* Display */
+
 }
 
 @media only screen and (min-width: 768px) {
